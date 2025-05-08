@@ -2,8 +2,9 @@ pipeline {
     agent any
 
     tools {
-        nodejs 'Node JS 24'
+    nodejs 'Node Js 24'
     }
+
 
     environment {
         REPO_URL = 'https://github.com/nehap3/Tenzies_Game.git' // Apna repo link yahan daal dena
